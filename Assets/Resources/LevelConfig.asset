@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8561ad87c7b91044b0d642be4e7a80c, type: 3}
+  m_Name: LevelConfig
+  m_EditorClassIdentifier: 
+  _lines:
+  - {x: -2.5, y: 0, z: 10}
+  - {x: 0, y: 0, z: 10}
+  - {x: 2.5, y: 0, z: 10}
+  _linePrefab: {fileID: 4645380123808900328, guid: 623d2b80c53839740ab837122701cb33, type: 3}
+  _coinLayerIndex: 3
+  _coinPrefab: {fileID: 100000, guid: 7db42757b9c1bab409898528713982e0, type: 3}
+  _minCountCoinPath: 3
+  _maxCountCoinPath: 9
+  _distanceBeetwenCoin: 2
+  _obstaclePrefab: {fileID: 2425042363920069364, guid: ed274ac6ee57a7e4998dae388005e48e, type: 3}
+  _obstacleLayerIndex: 6
